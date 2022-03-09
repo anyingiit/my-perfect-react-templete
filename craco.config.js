@@ -10,10 +10,10 @@ module.exports = {
         lessLoaderOptions: {
           lessOptions: {
             // modifyVars: { '@primary-color': '#1DA57A' }, // 配置主题色为绿色
-            javascriptEnabled: true,
-          },
-        },
-      },
-    },
-  ],
+            javascriptEnabled: true
+          }
+        }
+      }
+    }
+  ]
 };
