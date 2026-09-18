@@ -1,46 +1,64 @@
-# Getting Started with Create React App
+<!-- Source: Best-README-Template BLANK_README (Unlicense) — https://github.com/othneildrew/Best-README-Template -->
+<a id="readme-top"></a>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# My Perfect React Templete
 
-## Available Scripts
+My perfect react templete has no README describing its purpose; its manifest (package.json, tsconfig.json, yarn.lock) marks it as a Node.js and TypeScript codebase, built with JavaScript.
 
-In the project directory, you can run:
+[![CI](https://github.com/anyingiit/my-perfect-react-templete/actions/workflows/ci.yml/badge.svg)](https://github.com/anyingiit/my-perfect-react-templete/actions/workflows/ci.yml)
+[![License](https://img.shields.io/github/license/anyingiit/my-perfect-react-templete)](LICENSE)
 
-### `npm start`
+[Report a bug](https://github.com/anyingiit/my-perfect-react-templete/issues/new?template=bug_report.yml) · [Request a feature](https://github.com/anyingiit/my-perfect-react-templete/issues/new?template=feature_request.yml)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+<details>
+  <summary>Table of Contents</summary>
+  <ol>
+    <li><a href="#about-the-project">About The Project</a></li>
+    <li><a href="#getting-started">Getting Started</a></li>
+    <li><a href="#usage">Usage</a></li>
+    <li><a href="#contributing">Contributing</a></li>
+    <li><a href="#license">License</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ol>
+</details>
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## About The Project
 
-### `npm test`
+My perfect react templete has no README describing its purpose; its manifest (package.json, tsconfig.json, yarn.lock) marks it as a Node.js and TypeScript codebase, built with JavaScript.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+See the [open issues](https://github.com/anyingiit/my-perfect-react-templete/issues) for planned features and known issues.
 
-### `npm run build`
+## Getting Started
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Prerequisites
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- Git
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Installation
 
-### `npm run eject`
+```sh
+git clone https://github.com/anyingiit/my-perfect-react-templete.git
+cd my-perfect-react-templete
+```
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+## Usage
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+```sh
+my-perfect-react-templete --help
+```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+## Contributing
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+Contributions are welcome. Read [CONTRIBUTING.md](CONTRIBUTING.md) for how to open an issue or a pull request, and [CODE_OF_CONDUCT.md](CODE_OF_CONDUCT.md) for the standards expected of everyone taking part.
 
-## Learn More
+Please do not report security issues in public issues or pull requests. [SECURITY.md](SECURITY.md) explains how to report them privately.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## License
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Distributed under the MIT License. See [LICENSE](LICENSE) for details.
+
+## Contact
+
+Project link: [https://github.com/anyingiit/my-perfect-react-templete](https://github.com/anyingiit/my-perfect-react-templete)
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
