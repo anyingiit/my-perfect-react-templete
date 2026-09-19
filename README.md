@@ -1,9 +1,11 @@
 <!-- Source: Best-README-Template BLANK_README (Unlicense) — https://github.com/othneildrew/Best-README-Template -->
 <a id="readme-top"></a>
 
-# My Perfect React Templete
+# my-perfect-react-templete
 
-My perfect react templete has no README describing its purpose; its manifest (package.json, tsconfig.json, yarn.lock) marks it as a Node.js and TypeScript codebase, built with JavaScript.
+A Create React App template pre-wired with TypeScript, Craco, Tailwind CSS, Less and Ant Design, so a new project starts from a working build instead of default create-react-app scaffolding.
+
+**English** · [简体中文](README.zh-CN.md)
 
 [![CI](https://github.com/anyingiit/my-perfect-react-templete/actions/workflows/ci.yml/badge.svg)](https://github.com/anyingiit/my-perfect-react-templete/actions/workflows/ci.yml)
 [![License](https://img.shields.io/github/license/anyingiit/my-perfect-react-templete)](LICENSE)
@@ -24,7 +26,9 @@ My perfect react templete has no README describing its purpose; its manifest (pa
 
 ## About The Project
 
-My perfect react templete has no README describing its purpose; its manifest (package.json, tsconfig.json, yarn.lock) marks it as a Node.js and TypeScript codebase, built with JavaScript.
+Cloning `my-perfect-react-templete` gives a Create React App project wrapped in Craco (`craco.config.js`), so its webpack configuration can be extended without ejecting. TypeScript (`tsconfig.json`), Tailwind CSS (`tailwind.config.js`, `postcss.config.js`) and Less (`craco-less`, `src/App.less`) are already wired to build together, and Ant Design is installed and themed through the same Less pipeline (`src/App.less` imports `~antd/dist/antd.less`), with a commented-out `<Button>` in `src/App.tsx` showing how to pull a component in. ESLint, Prettier and Stylelint configuration ship ready to run.
+
+What is not here yet is the application itself. `src/App.tsx` still renders the starter's own placeholder, a single "Hello World" heading, and nothing in it yet uses the Ant Design components, Tailwind utility classes or Less styling the tooling wires together -- that part is what starting from this template means filling in.
 
 See the [open issues](https://github.com/anyingiit/my-perfect-react-templete/issues) for planned features and known issues.
 
@@ -32,20 +36,26 @@ See the [open issues](https://github.com/anyingiit/my-perfect-react-templete/iss
 
 ### Prerequisites
 
-- Git
+- Node.js 16 or newer -- `package.json`'s `@types/node` dependency targets the Node 16 API surface
+- Yarn -- the repository commits `yarn.lock`, not a `package-lock.json`
 
 ### Installation
 
 ```sh
 git clone https://github.com/anyingiit/my-perfect-react-templete.git
 cd my-perfect-react-templete
+yarn install
 ```
 
 ## Usage
 
 ```sh
-my-perfect-react-templete --help
+yarn start   # dev server at http://localhost:3000, with hot reload
+yarn build   # production bundle, output to build/
+yarn test    # run the test suite
 ```
+
+Start with `yarn start`, then edit `src/App.tsx` to replace the placeholder heading with the actual page.
 
 ## Contributing
 
